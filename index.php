@@ -35,7 +35,7 @@
 
 <body id="page-top">
 
-<nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix-top">
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -51,7 +51,7 @@
                 <li class="">
                     <a class="page-scroll" href="#download">Descarga (próximamente)</a>
                 </li>
-                <li class="">
+                <li class="active">
                     <a class="page-scroll" href="#features">Características</a>
                 </li>
                 <li class="">
@@ -69,10 +69,16 @@
         <div class="row">
             <div class="col-sm-7">
                 <div class="header-content">
-                    <img src="img/aparkblanco.png">
-                    <div class="header-content-inner">
-                        <h1>No encontrar aparcamiento en la ULPGC ya no es excusa para llegar tarde.</h1>
-                        <a href="mailto:support@apark.com" class="btn btn-outline btn-xl page-scroll">Contáctanos</a>
+
+                    <div class="header-content-inner" style="
+    text-align: center;
+">
+                        <img src="img/aparkblanco.png" style="
+    width: 65%;
+"><h1 style="
+    margin-top: 20px;
+">No encontrar aparcamiento en la ULPGC ya no es excusa para llegar tarde.</h1>
+                        <a href="mailto:support@apark.com" class="btn btn-outline btn-xl page-scroll" style="margin: 0 auto;">Contáctanos</a>
                     </div>
                 </div>
             </div>
@@ -82,7 +88,7 @@
                         <div class="device">
                             <div class="screen">
                                 <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                <img src="img/demo-screen-1.jpg" class="img-responsive" alt="">
+                                <img src="img/Map.PNG" class="img-responsive" alt="">
 
                             </div>
                             <div class="button">
@@ -129,7 +135,45 @@
                         <div class="device">
                             <div class="screen">
                                 <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                <img src="img/demo-screen-1.jpg" class="img-responsive" alt=""> </div>
+                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                    <!-- Indicators -->
+                                    <ol class="carousel-indicators" style="bottom: 0;margin-bottom: 0;">
+                                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                                        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+                                        <li data-target="#myCarousel" data-slide-to="3" class=""></li>
+                                    </ol>
+
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="img/Login.PNG" alt="Chania">
+                                        </div>
+
+                                        <div class="item">
+                                            <img src="img/Map.PNG" alt="Chania">
+                                        </div>
+
+                                        <div class="item">
+                                            <img src="img/Statistics.PNG" alt="Flower">
+                                        </div>
+
+                                        <div class="item">
+                                            <img src="img/Navigation.PNG" alt="Flower">
+                                        </div>
+                                    </div>
+
+                                    <!-- Left and right controls -->
+                                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="color:  black;"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="color:  black;"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
                             <div class="button">
                                 <!-- You can hook the "home button" to some JavaScript events or just remove it -->
                             </div>
