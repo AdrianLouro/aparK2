@@ -38,7 +38,7 @@
 
 <body id="page-top">
 
-<nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix-top">
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -59,7 +59,7 @@
                     <a class="page-scroll" href="#features">Características</a>
                 </li>
                 <li class="">
-                    <a class="page-scroll" href="#suscribe">Suscríbete</a>
+                    <a class="page-scroll" href="#subscribe">Suscríbete</a>
                 </li>
                 <li class="">
                     <a class="page-scroll" href="#contact">Comparte</a>
@@ -88,8 +88,10 @@
 ">No encontrar aparcamiento en la ULPGC ya no es excusa para llegar tarde.</h1>
 
 
-                        <a href="mailto:support@apark.com" class="btn btn-outline btn-xl page-scroll" style="margin: 10px;">Contáctanos</a>
-                        <a class="btn btn-outline btn-xl page-scroll" href="#suscribe" style="margin: 10px;">Suscríbete</a>
+                        <a href="mailto:support@apark.com" class="btn btn-outline btn-xl page-scroll"
+                           style="margin: 10px;">Contáctanos</a>
+                        <a class="btn btn-outline btn-xl page-scroll" href="#suscribe"
+                           style="margin: 10px;">Suscríbete</a>
                     </div>
 
                 </div>
@@ -119,8 +121,8 @@
                 <h2 class="section-heading">Disponible para descargar en tu smartphone</h2>
 
                 <div class="badges">
-                    <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
-                    <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
+                    <a class="badge-link" href="#download"><img src="img/google-play-badge.svg" alt=""></a>
+                    <a class="badge-link" href="#download"><img src="img/app-store-badge.svg" alt=""></a>
                 </div>
             </div>
         </div>
@@ -149,8 +151,8 @@
                                     <!-- Indicators -->
                                     <ol class="carousel-indicators" style="bottom: 0;margin-bottom: 0;">
                                         <li data-target="#myCarousel" data-slide-to="0" class=""></li>
-                                        <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
-                                        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+                                        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                                        <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
                                     </ol>
 
                                     <!-- Wrapper for slides -->
@@ -159,11 +161,11 @@
                                             <img src="img/Login.PNG" alt="Chania">
                                         </div>
 
-                                        <div class="item active">
+                                        <div class="item">
                                             <img src="img/Map.PNG" alt="Chania">
                                         </div>
 
-                                        <div class="item">
+                                        <div class="item active">
                                             <img src="img/Statistics.PNG" alt="Flower">
                                         </div>
                                     </div>
@@ -238,11 +240,26 @@
     </div>
 </section>
 
-<section class="cta" id ="suscribe">
+<section class="cta" id="subscribe" style="
+    padding: 110px 0 60px 0;
+">
     <div class="cta-content">
         <div class="container">
             <h2>No pierdas tiempo.<br>Apar-k.</h2>
-            <a href="#contact" class="btn btn-outline btn-xl page-scroll">Let's Get Started!</a>
+            <form class="form-inline" style="text-align: center;margin-top: 130px;">
+                <input type="email" class="form-control" style="
+    text-align: center;
+    min-width: 290px;
+    height: 47px;
+    border-radius: 30px;
+    font-size: 11px;
+    text-transform: uppercase;
+" placeholder="email@email.es">
+                <a href="#subscribe" class="btn btn-outline btn-xl page-scroll" style="
+    margin: 10px;
+">Suscríbete</a>
+
+            </form>
         </div>
     </div>
     <div class="overlay"></div>
