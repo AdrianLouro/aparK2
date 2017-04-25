@@ -1,4 +1,5 @@
-<html lang="en"><head>
+<html lang="en">
+<head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -6,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    
+
     <title>apar-K</title>
 
 
@@ -37,11 +38,12 @@
 
 <body id="page-top">
 
-<nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix">
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix-top">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand page-scroll" href="#page-top">apar-K</a>
@@ -51,13 +53,16 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li class="">
-                    <a class="page-scroll" href="#download">Descarga (próximamente)</a>
+                    <a class="page-scroll" href="#download">Descarga</a>
                 </li>
-                <li class="active">
+                <li class="">
                     <a class="page-scroll" href="#features">Características</a>
                 </li>
                 <li class="">
-                    <a class="page-scroll" href="#contact">Contacto</a>
+                    <a class="page-scroll" href="#suscribe">Suscríbete</a>
+                </li>
+                <li class="">
+                    <a class="page-scroll" href="#contact">Comparte</a>
                 </li>
             </ul>
         </div>
@@ -77,11 +82,16 @@
 ">
                         <img src="img/aparkblanco.png" style="
     width: 65%;
-"><h1 style="
+">
+                        <h1 style="
     margin-top: 20px;
 ">No encontrar aparcamiento en la ULPGC ya no es excusa para llegar tarde.</h1>
-                        <a href="mailto:support@apark.com" class="btn btn-outline btn-xl page-scroll" style="margin: 0 auto;">Contáctanos</a>
+
+
+                        <a href="mailto:support@apark.com" class="btn btn-outline btn-xl page-scroll" style="margin: 10px;">Contáctanos</a>
+                        <a class="btn btn-outline btn-xl page-scroll" href="#suscribe" style="margin: 10px;">Suscríbete</a>
                     </div>
+
                 </div>
             </div>
             <div class="col-sm-5">
@@ -93,9 +103,7 @@
                                 <img src="img/Map.PNG" class="img-responsive" alt="">
 
                             </div>
-                            <div class="button">
-                                <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -108,7 +116,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <h2 class="section-heading">Próximamente estará disponible para descargar en tu smartphone</h2>
+                <h2 class="section-heading">Disponible para descargar en tu smartphone</h2>
 
                 <div class="badges">
                     <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
@@ -140,45 +148,41 @@
                                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                                     <!-- Indicators -->
                                     <ol class="carousel-indicators" style="bottom: 0;margin-bottom: 0;">
-                                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                                        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+                                        <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
                                         <li data-target="#myCarousel" data-slide-to="2" class=""></li>
-                                        <li data-target="#myCarousel" data-slide-to="3" class=""></li>
                                     </ol>
 
                                     <!-- Wrapper for slides -->
                                     <div class="carousel-inner" role="listbox">
-                                        <div class="item active">
+                                        <div class="item">
                                             <img src="img/Login.PNG" alt="Chania">
                                         </div>
 
-                                        <div class="item">
+                                        <div class="item active">
                                             <img src="img/Map.PNG" alt="Chania">
                                         </div>
 
                                         <div class="item">
                                             <img src="img/Statistics.PNG" alt="Flower">
                                         </div>
-
-                                        <div class="item">
-                                            <img src="img/Navigation.PNG" alt="Flower">
-                                        </div>
                                     </div>
 
                                     <!-- Left and right controls -->
                                     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="color:  black;"></span>
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"
+                                              style="color:  black;"></span>
                                         <span class="sr-only">Previous</span>
                                     </a>
-                                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="color:  black;"></span>
+                                    <a class="right carousel-control" href="#myCarousel" role="button"
+                                       data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"
+                                              style="color:  black;"></span>
                                         <span class="sr-only">Next</span>
                                     </a>
                                 </div>
                             </div>
-                            <div class="button">
-                                <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -190,18 +194,9 @@
                             <div class="feature-item">
                                 <i class="icon-map text-primary"></i>
                                 <h3>Mapa</h3>
-                                <p class="text-muted">Mapa por colores del estado actual de cada parking.</p>
+                                <p class="text-muted">Mapa por colores del estado actual de cada parking</p>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="feature-item">
-                                <i class="icon-location-pin text-primary"></i>
-                                <h3>GPS</h3>
-                                <p class="text-muted">Te podemos indicar cómo llegar a la plaza más cercana a tu destino</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
                         <div class="col-md-6">
                             <div class="feature-item">
                                 <i class="icon-graph text-primary"></i>
@@ -209,6 +204,10 @@
                                 <p class="text-muted">Observa las estadísticas de ocupación del parking </p>
                             </div>
                         </div>
+
+                    </div>
+                    <div class="row">
+
                         <div class="col-md-6">
                             <div class="feature-item">
                                 <i class="icon-user text-primary"></i>
@@ -216,14 +215,38 @@
                                 <p class="text-muted">Integración con la cuenta de la ULPGC</p>
                             </div>
                         </div>
+                        <div class="col-md-6">
+                            <div class="feature-item">
+                                <i class="icon-wallet text-primary"></i>
+                                <h3>Pago</h3>
+                                <p class="text-muted">Solo será necesario pagar 5€ en el momento de cumplimentar la
+                                    matrícula </p>
+                            </div>
+                        </div>
+                        <!--<div class="col-md-6">-->
+                        <!--    <div class="feature-item">-->
+                        <!--        <i class="icon-location-pin text-primary"></i>-->
+                        <!--        <h3>GPS</h3>-->
+                        <!--        <p class="text-muted">Te podemos indicar cómo llegar a la plaza más cercana a tu destino</p>-->
+                        <!--    </div>-->
+                        <!--</div>-->
                     </div>
+
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-
+<section class="cta" id ="suscribe">
+    <div class="cta-content">
+        <div class="container">
+            <h2>No pierdas tiempo.<br>Apar-k.</h2>
+            <a href="#contact" class="btn btn-outline btn-xl page-scroll">Let's Get Started!</a>
+        </div>
+    </div>
+    <div class="overlay"></div>
+</section>
 
 <section id="contact" class="contact bg-primary">
     <div class="container">
@@ -241,6 +264,7 @@
         </ul>
     </div>
 </section>
+
 
 <footer>
     <div class="container">
@@ -272,6 +296,5 @@
 <script src="js/new-age.min.js"></script>
 
 
-
-
-</body></html>
+</body>
+</html>
