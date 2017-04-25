@@ -90,7 +90,7 @@
 
                         <a href="mailto:support@apark.com" class="btn btn-outline btn-xl page-scroll"
                            style="margin: 10px;">Contáctanos</a>
-                        <a class="btn btn-outline btn-xl page-scroll" href="#suscribe"
+                        <a class="btn btn-outline btn-xl page-scroll" href="#subscribe"
                            style="margin: 10px;">Suscríbete</a>
                     </div>
 
